@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Christmas lights</title>
+</head>
+<body>
+    <main>
+        <div class="lights" id="deeppink"></div>
+        <div class="lights" id="yellow"></div>
+        <div class="lights" id="deepskyblue"></div>
+        <div class="lights" id="crimson"></div>
+        <div class="lights" id="deeppink"></div>
+        <div class="lights" id="yellow"></div>
+        <div class="lights" id="deepskyblue"></div>
+        <div class="lights" id="crimson"></div>
+    </main>
+    <section>
+        <div class="button" id="button_on" onclick=start()>On</div>
+        <div class="button" id="button_off" onclick=stop()>Off</div>
+    </section>
+        <input type="number" placeholder="Blink speed" id="input" onchange=start() value="1">
+</body>
+<script src="app.js"></script>
+</html>
